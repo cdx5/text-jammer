@@ -1,0 +1,22 @@
+* {
+	padding: 0;
+	margin: 0;	
+}
+
+body {
+	font-family: Helvetica, sans-serif;
+	font-size: 36px;
+	line-height: 46px;
+	text-transform: uppercase;
+	letter-spacing: 0.045em;
+	padding: 36px;
+}
+
+p {
+	padding-bottom: 36px
+}
+
+.char {
+	position: relative; 
+	display: inline-block;
+}
