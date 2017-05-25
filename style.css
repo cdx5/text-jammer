@@ -5,15 +5,19 @@
 
 body {
 	font-family: Helvetica, sans-serif;
-	font-size: 36px;
-	line-height: 46px;
+	font-size: 22px;
+	line-height: 28px;
 	text-transform: uppercase;
-	letter-spacing: 0.045em;
-	padding: 36px;
+	letter-spacing: 0.04em;
+	padding: 28px;
+}
+
+a {
+	word-wrap: break-word;
 }
 
 p {
-	padding-bottom: 36px
+	padding-bottom: 28px
 }
 
 .char {
@@ -24,3 +28,4 @@ p {
 .word {
 	display: inline-block;
 }
+
