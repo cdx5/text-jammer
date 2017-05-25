@@ -1,7 +1,12 @@
 $(document).ready(function(){
-	
-	//wrap each jamming character in <span> tags
+
+    //wrap each jamming word in <span> tags
 	$('.jammer').html(function(index, html) {
+	  return html.replace(/\w+/g, '<span class="word">$&</span>');
+	});
+	
+    //wrap each jamming character in <span> tags
+	$('.word').html(function(index, html) {
 	  return html.replace(/\S/g, '<span class="char">$&</span>');
 	});
 	
