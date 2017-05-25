@@ -4,6 +4,6 @@ for applying a subtle 'ransom note' effect to text. adjust the position, rotatio
 
 to activate, apply class="jammer" to any html tag.
 
-known issues: line-breaks do not honor words 
+known issues: line-breaks do not honor words (FIXED 05.25.17)
 
 demo: <a href="http://bbbeeccaa.net/cdx5/text-jammer">http://bbbeeccaa.net/cdx5/text-jammer</a>
